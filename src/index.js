@@ -8,9 +8,9 @@ class BulletList extends React.Component {
         <div>
             <h1>Bullet List for{this.props.name}</h1>
             <ul>
-                <li>Recipe One</li>
-                <li>Recipe Two</li>
-                <li>Recipe Three</li>
+                <li>Ingredient One</li>
+                <li>Ingredient Two</li>
+                <li>Ingredient Three</li>
             </ul>
         </div>
         );
