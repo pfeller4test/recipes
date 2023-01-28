@@ -16,5 +16,13 @@ class BulletList extends React.Component {
         );
     }
 }
+
+class RecipePage extends React.Component {
+    render() {
+        return (
+            <BulletList/>
+        )
+    }
+}
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<BulletList />);
+root.render(<RecipePage />);
